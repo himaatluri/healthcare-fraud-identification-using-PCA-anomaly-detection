@@ -26,7 +26,8 @@ Let's work a healthcare fraud identification useuse by applying a PCA algorithm 
 ## **Lab 0 - Launch an Amazon SageMaker Jupyter Notebook**
 
 ### Prerequisites and assumptions
-To complete this lab, you need an AWS account that provides access to AWS services Amazon S3, Amazon Sagemaker, Amazon ECR etc.
+1. To complete this lab, you need an AWS account that provides access to AWS services.
+2. Credits will be provided to offset the cost of AWS usage charges incurred in this workshop.
 
 ### Steps
 1. Sign In to the [AWS Console](https://aws.amazon.com/)
