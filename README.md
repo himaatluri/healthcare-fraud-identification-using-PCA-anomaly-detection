@@ -16,7 +16,7 @@ Let's work a healthcare fraud identification useuse by applying a PCA algorithm 
 3. Understand feature engineering on categorical data using Word Embeddings with CBOW-Bag of Words-technique
 4. Understand PCA algorithm for feature extraction
 5. Understand Unsupervised Anomaly detection on multivarite data
-6. Understand visualization technique to develop understand anomalous results.
+6. Understand visualization technique to understand anomalous results.
 
 
 
@@ -26,8 +26,7 @@ Let's work a healthcare fraud identification useuse by applying a PCA algorithm 
 ## **Lab 0 - Launch an Amazon SageMaker Jupyter Notebook**
 
 ### Prerequisites and assumptions
-1. To complete this lab, you need an AWS account that provides access to AWS services.
-2. Credits will be provided to offset the cost of AWS usage charges incurred in this workshop.
+1. To complete this lab, you need an personal Laptop and an AWS account that provides access to AWS services.
 
 ### Steps
 1. Sign In to the [AWS Console](https://aws.amazon.com/)
@@ -62,9 +61,6 @@ Let's work a healthcare fraud identification useuse by applying a PCA algorithm 
 6. Navigate to the **model-tar.gz** and delete it by using **Actions** menu.![Delete Model](./images/delete-model.png) 
 6. Navigate to the training data file **healthcare_fraud_identification_feature_store** and delete it by using **Actions** menu.![Delete Training Data](./images/delete-training-data.png)
 7. After all the objects are deleted in the bucket. Go ahead and delete the bucket using the Actions menu.![Delete Bucket](./images/delete-bucket.png)
-
-## Complete the Survey
-1. Complete the survey on your mobile app.
 
 
 
