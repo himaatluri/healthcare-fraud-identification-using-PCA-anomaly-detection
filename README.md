@@ -2,21 +2,20 @@
 
 # Introduction
 
-IDC study states that 40% of Enteprises in year 2019 will be working to include AI/ML as a part of their transformative strategy. AI/ML is beyond the hype cycle and there are usecases that are providing real business value. Customer looking to start their AI/ML journey understands AI/ML is hard and are looking to partner with Cloud Providers for support. They are making a choice not based on very specific capabilities or solution. Customers understands AI/ML projects are explorative and requires multiple iterations to get it right and requires broader capabilities from supporting partners. 10,000+ customers today choose AWS for AI/ML services because they understand that AWS provides deepest and broadest set of services for AI/ML. 
+IDC study states that 40% of Enteprises in year 2019 will be working to include AI/ML as a part of their transformative strategy. Today, AI/ML is beyond the hype cycle and there are usecases that are providing real business value. Customer looking to start their AI/ML journey understands that AI/ML is hard and are looking to partner with Cloud Providers for support. They are making a choice not based on very specific capabilities or solutions. Customers understands AI/ML projects are explorative and requires multiple iterations to get it right and requires broader capabilities from partners. 10,000+ customers are using AWS today for AI/ML services because they understand that AWS provides deepest and broadest set of services for AI/ML workloads. 
 
-In today's workshop, we discuss the capabilities of Amazon SageMaker a machine leanring platform for Developers and Data Scientists. We will work a problem statement and will solve it by apply Machine Learning on Amazon SageMaker. Amazon SageMaker takes undifferentiated heavy lifting involved in Machine Learning process and will allow them to focus on solving business problem by training out of the box optimized algorithm on customer data and to deploy endpoint for inference to make business application intelligent.
+In today's workshop, we discuss the capabilities of Amazon SageMaker a machine leanring platform for Developers and Data Scientists. We will define a problem statement and will solve it by apply Machine Learning using Amazon SageMaker. Amazon SageMaker takes undifferentiated heavy lifting involved in Machine Learning process and allows developers and data scientists to focus on solving business problem by following a build, train and deploy pattern.
 
-Let's work a healthcare fraud identification useuse by applying a PCA algorithm and calculating anomaly score for each record using statistical techniques. You may find the concepts used in the workshop bit mathemaical. But, I would request you to develop the intution to understand the potential applications of techniques versus focussing too much on maths under the hood. The concepts discussed can be used in different industrial scanerios to solve broad category of problems and are not limited to specific usecase that we will discuss today.
+Let's work on a healthcare fraud identification usecase and apply machine learning to identify anomalous claims that rrequire further investigation. You may find the concepts used in the workshop bit mathemaical. But, I would request you to develop the intution to understand the potential applications of techniques rather than focussing on maths involved. The technique used in the workshop is broadly applicable to multiple problems related to outlier detection on multi-variate data.
 
 ## Learning Objectives
-1. Understand Machine Learning Process
-2. Develop intution for steps involved in Machine Learning Process
-3. Understand how to do end to end machine lerning on Amazon SageMaker using Build, Train and Deploy pattern.
-4. Understand how to clone a public gitrepo automatically in Amazon Sagemaker Notebook
-3. Understand feature engineering on categorical data using Word Embeddings with CBOW-Bag of Words-technique
-4. Understand PCA algorithm for feature extraction
-5. Understand Unsupervised Anomaly detection on multivarite data
-6. Understand visualization technique to understand anomalous results.
+1. Develop intution for steps involved in the Machine Learning Process
+2. Understand and Implement end to end machine learning on Amazon SageMaker to Build, Train and Deploy a model.
+3. Clone a public gitrepo automatically in Amazon Sagemaker Notebook during the launch.
+4. Perform feature engineering on categorical data using Word Embeddings with CBOW-Bag of Words-technique
+5. Train and use PCA algorithm for feature extraction
+6. Understand how to calculate anomaly score from principal components of PCA model.
+7. Perform visualization to understand anomalous claims.
 
 
 
@@ -41,7 +40,7 @@ Let's work a healthcare fraud identification useuse by applying a PCA algorithm 
 6. Click **Create Notebook Instance**![Create Notebook Instance](./images/create-notebook-instance.png)
 8. In the Amazon SageMaker Console-->Notebook Instances, wait for your notebook instance to start. Observe change from Pending to In Service status.![Creation pending](./images/creation-pending.png)![Notebook In Service](./images/notebook-inservice.png)
 9. Remember the name of your notebook instance and Click **Open Jupyter** for your notebook.![Notebook In Service](./images/notebook-inservice.png)
-10. Validate your Resources cloned from Git Repo![Validate Git Clone](./images/validate-git-clone.png)
+10. Validate your data and notebook cloned from Git Repo![Validate Git Clone](./images/validate-git-clone.png)
 
 ## **Lab 1 - Finish your Lab in Jupter Notebook**
 1. Click on **healthcare-fraud-identification-using-PCA-anomaly-detection.ipynb** and start working on your lab. From here onwards all the instruction will be in the Jupyter Notebook. Come back and after you have completed all the steps in the Jupyter Notebook and finish rest of the steps suggested below.
